@@ -2,14 +2,76 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Pattrn Party</title>
   </head>
   <body>
     <header>
-      <h1>PATTRN PARTY</h1>
-      <h2>Jen Woodson</h2>
+      <h2><span id='pattrn-text'>PATTRN</span> <span id='party-text'>PARTY</span></h2>
+      <hr noshade/>
+      <h3 id='student-name'>Jen Woodson</h3>
     </header>
-    <section id='accordion-tabs-container'>
-    </section>
+    <main>
+      <div class='ui-element-title-container'>
+        <p class='ui-element-title'><span class='ui-element-title-text'>ACCORDION TABS</span></p>
+      </div>
+      <section id='accordion-tabs-container'>
+        <div id='tab-title-1' class='tab-title tab-title-active'>Tab 1<span class='expand-tab expand-tab-active'>&#8211</span></div>
+        <div id='tab-title-2' class='tab-title'>Tab 2<span class='expand-tab'>+</span></div>
+        <div id='tab-title-3' class='tab-title'>Tab 3<span class='expand-tab'>+</span></div>
+        <div id='tab-title-4' class='tab-title'>Tab 4<span class='expand-tab'>+</span></div>
+        <article id='tab-1' class='tab tab-active'>
+          <div class='tab-image image-1'></div>
+          <div class='tab-text-container'>
+            <h3 class='tab-heading'>Lorem ipsum dolor sit amet, consectetue</h3>
+            <p class='tab-text'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+  nonummy nibh euismod tincidunt ut laoreet dolore magna
+  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+  exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+  commodo consequat.</p>
+            <p class='tab-text'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+  molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+  vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+          </div>
+        </article>
+        <article id='tab-2' class='tab'>
+          <div class='tab-image image-2'></div>
+          <div class='tab-text-container'>
+            <h3 class='tab-heading'>Lorem ipsum dolor sit amet, consectetue</h3>
+            <p class='tab-text'>Sed viverra ipsum nunc aliquet. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Lectus urna duis convallis convallis tellus id interdum velit. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Amet justo donec enim diam vulputate ut. Lorem sed risus ultricies tristique. Arcu non sodales neque sodales ut. Cras semper auctor neque vitae tempus quam pellentesque nec. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Urna et pharetra pharetra massa.</p>
+            <p class='tab-text'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+  molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+  vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+          </div>
+        </article>
+        <article id='tab-3' class='tab'>
+          <div class='tab-image image-3'></div>
+          <div class='tab-text-container'>
+            <h3 class='tab-heading'>Lorem ipsum dolor sit amet, consectetue</h3>
+            <p class='tab-text'>Amet cursus sit amet dictum sit amet. Sit amet purus gravida quis blandit. Commodo ullamcorper a lacus vestibulum sed arcu non. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Ultrices mi tempus imperdiet nulla malesuada. Ante metus dictum at tempor commodo ullamcorper. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Id donec ultrices tincidunt arcu non. Neque gravida in fermentum et sollicitudin ac orci. Rhoncus urna neque viverra justo nec ultrices dui sapien eget. Orci nulla pellentesque dignissim enim sit. Faucibus vitae aliquet nec ullamcorper. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Ultrices vitae auctor eu augue. Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus at augue eget arcu dictum varius duis at. Eget dolor morbi non arcu risus quis.</p>
+            <p class='tab-text'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+  molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+  vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+          </div>
+        </article>
+        <article id='tab-4' class='tab'>
+          <div class='tab-image image-4'></div>
+          <div class='tab-text-container'>
+            <h3 class='tab-heading'>Lorem ipsum dolor sit amet, consectetue</h3>
+            <p class='tab-text'>Fames ac turpis egestas sed tempus urna et pharetra pharetra. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Pharetra diam sit amet nisl. Morbi leo urna molestie at elementum eu. Quis blandit turpis cursus in hac habitasse platea. Diam vel quam elementum pulvinar etiam non quam.</p>
+            <p class='tab-text'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+  molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+  vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+          </div>
+        </article>
+      </section>
+      <button class='view-code'>VIEW CODE</button>
+    </main>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type="text/javascript" src="scripts.js">
+
+    </script>
   </body>
 </html>
