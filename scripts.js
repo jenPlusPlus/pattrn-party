@@ -1,10 +1,9 @@
 $('.tab-title').on('click', (event) => {
-  $(event.target).siblings().removeClass('tab-title-active');
-  $(event.target).addClass('tab-title-active');
-  $('.expand-tab').html('+');
-  $(event.target).find('span').html('&#8211');
+  $(event.target).toggleClass('tab-title-active');
   $(event.target).find('span').toggleClass('expand-tab-active');
-  $(`#tab-${event.target.id[event.target.id.length-1]}`).addClass('tab-active');
+  $('.expand-tab').html('+');
+  $('.expand-tab-active').html('&#8211');
+  $(`#tab-${event.target.id[event.target.id.length-1]}`).toggleClass('tab-active');
   $(`#tab-${event.target.id[event.target.id.length-1]}`).siblings().removeClass('tab-active');
 
 })
