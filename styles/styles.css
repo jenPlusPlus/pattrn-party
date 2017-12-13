@@ -194,9 +194,7 @@ main {
     padding-bottom: 40px; }
 
   .expand-tab {
-    display: inline; }
-
-  .expand-tab-active {
+    display: inline;
     font-weight: 300; }
 
   .tab, .tab-active, .tab-title-active, .tab-title {
