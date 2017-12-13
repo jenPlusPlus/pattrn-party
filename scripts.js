@@ -1,6 +1,4 @@
 $('.tab-title').on('click', (event) => {
-  console.log(event.target);
-  console.log(`tab-${event.target.id[event.target.id.length-1]}`);
   $(event.target).siblings().removeClass('tab-title-active');
   $(event.target).addClass('tab-title-active');
   $('.expand-tab').html('+');
