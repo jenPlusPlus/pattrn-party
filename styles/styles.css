@@ -206,6 +206,9 @@ main {
 #tab-4 {
   border-right: 0; }
 
+#view-code-flexible-cards {
+  margin: 75px 0 35px 0; }
+
 @media screen and (max-width: 690px) {
   body {
     height: auto; }
@@ -358,6 +361,9 @@ main {
     order: 5; }
 
   #tab-title-4 {
-    order: 7; } }
+    order: 7; }
+
+  #view-code-flexible-cards {
+    margin: 35px 0; } }
 
 /*# sourceMappingURL=styles.css.map */
