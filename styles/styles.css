@@ -42,9 +42,9 @@ main {
 .flexible-card {
   height: 33%;
   border: 1px solid #D1D2D3;
-  width: 30%;
+  width: 31%;
   display: inline-block;
-  margin: 10px; }
+  margin: 1%; }
 
 .flexible-card-image {
   height: 80%; }
@@ -176,7 +176,7 @@ main {
   font-size: 0; }
 
 #flexible-card-1, #flexible-card-7 {
-  width: 62.5%; }
+  width: 64%; }
 
 #flexible-cards-container {
   flex-direction: row;
