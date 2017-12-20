@@ -1,0 +1,7 @@
+# Sass files
+.sass-cache
+styles.css.map
+styles.scss
+
+#.DS_Store
+.DS_Store
