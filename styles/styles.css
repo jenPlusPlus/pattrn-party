@@ -79,6 +79,41 @@ main {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.menu {
+  width: 70%; }
+
+#menu-text {
+  display: none; }
+
+#nav-search {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90%; }
+
+.nav-bar {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px; }
+
+.nav-link {
+  font-size: 16px;
+  display: inline-block;
+  width: 33%;
+  height: 22px;
+  text-align: center; }
+
+.nav-link-url {
+  display: inline-block;
+  width: 100%;
+  color: #666666;
+  font-weight: 300; }
+
 .tab, .tab-active {
   height: 90%;
   padding: 20px;
@@ -187,6 +222,60 @@ main {
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 
+#header-bar {
+  height: 100px;
+  background-color: #D1D2D3;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 5px 20px; }
+
+#header-bar-container {
+  height: 100px;
+  margin-bottom: 0; }
+
+#header-bar-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: url("./../assets/placeholder_image_280x260.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block; }
+
+#header-search {
+  background-image: url("./../assets/magnifying_glass.png");
+  background-repeat: no-repeat;
+  background-size: 20px 25px;
+  background-position: 5px;
+  height: 40px;
+  width: 100%;
+  padding-left: 30px;
+  font-size: 16px;
+  background-color: #F2F2F2;
+  border: 1px solid #666666;
+  font-weight: 300; }
+
+#header-search-container {
+  width: 30%; }
+
+#header-bar-image-container {
+  width: 10%; }
+
+#header-bar-image-container, #header-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+#menu-container {
+  display: none; }
+
+#menu-text {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 300;
+  color: #666666; }
+
 #pattrn-text, #party-text {
   font-weight: 300; }
 
@@ -234,6 +323,9 @@ main {
   .grey-rule {
     border-top: 1px solid #F2F2F2;
     margin: auto; }
+
+  .menu, .search {
+    display: none; }
 
   .purple-rule {
     border-top: 1px solid #3F3244; }
@@ -283,6 +375,9 @@ main {
     min-width: 100%;
     height: 250px;
     background-position: center; }
+
+  .nav-link {
+    width: 100%; }
 
   .tab-text-container {
     width: 100%;
@@ -337,6 +432,30 @@ main {
 
   #flexible-card-1, #flexible-card-7 {
     width: 100%; }
+
+  #nav-search {
+    width: 100%;
+    position: relative;
+    top: 95px; }
+
+  .mobile-display {
+    display: inline-block;
+    width: 100%; }
+
+  .mobile-display-search {
+    display: inline-block; }
+
+  #menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%; }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
 
   #tab-1 {
     order: 2; }
